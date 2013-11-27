@@ -86,9 +86,9 @@ public class CatalanNumberService extends Service {
 		mNoteMngr = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 		mNoteBuilder = new Notification.Builder(getApplicationContext());
 		mPendingIntent = PendingIntent.getActivity(getApplicationContext(), 0, 
-													new Intent(Intent.ACTION_VIEW, 
-													Uri.parse(CATALAN_NUMBERS_URI_WIKI)), 
-													0);
+							new Intent(Intent.ACTION_VIEW, 
+							           Uri.parse(CATALAN_NUMBERS_URI_WIKI)), 
+								   0);
 		mThisApp = (CatalanNumberServiceApp) this.getApplication();
 		// Post a message on the status bar that the service has been
 		// started
