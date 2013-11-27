@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content" 
+       android:orientation="horizontal"
+       >
+       
+       <TextView 
+           android:layout_width="wrap_content" 
+           android:layout_height="fill_parent"
+           android:text="Enter N:"
+           android:textSize="15dp"
+           />
+       
+       <EditText 
+           android:id="@+id/edtxtN"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:text=""
+           android:textSize="15dp"
+           />
+       
+   </LinearLayout>
+   
+   <LinearLayout 
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content" 
+       android:orientation="horizontal"
+       >
+       
+       <Button 
+           android:id="@+id/btnCatalanSum"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text=" Catalan Sum "
+           android:textSize="15dp"
+           />
+       
+       <Button
+           android:id="@+id/btnFibSum"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Fibonacci Sum"
+           android:textSize="15dp"
+           />
+       
+       <Button
+           android:id="@+id/btnClear"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="    Clear    "
+           android:textSize="15dp"
+           />
+       
+   </LinearLayout>
+
+</LinearLayout>
