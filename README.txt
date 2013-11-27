@@ -1,10 +1,9 @@
-1) StartedCatalanService.rar is an Android application with a started 
-service that computes Catalan numbers. 
+1) StartedCatalanNumberService is the source code of an application with a started 
+service that computes Catalan numbers. Replace images in /res/drawable with your
+own and edit AndroidManifest.xml and the handleNotificationMessage() method
+in CatalanNumberService.java that refers to the images.
 
-2) StartedSumIntentService.rar is an application that computes the 
-sum of the first n Catalan numbers and displays them one by one 
-in the status bar via a NotificationManager object and IntentService.
-are the first 10 Catalan numbers.
+
 
 
 
